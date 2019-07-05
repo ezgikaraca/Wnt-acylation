@@ -1,0 +1,30 @@
+! Ensure the proper interaction of the ligand with Fzd8
+assign (resi 71) (resi 1 and segid P and name C3) 2.0 2.0 0.5
+assign (resi 71) (resi 1 and segid P and name C4) 2.0 2.0 0.5
+assign (resi 72) (resi 1 and segid P and name C1) 2.0 2.0 0.5
+assign (resi 72) (resi 1 and segid P and name O2) 2.0 2.0 0.5
+assign (resi 72) (resi 1 and segid P and name C1) 2.0 2.0 0.5
+assign (resi 74) (resi 1 and segid P and name C8) 2.0 2.0 0.5
+assign (resi 78) (resi 1 and segid P and name CD) 2.0 2.0 0.5
+assign (resi 122) (resi 1 and segid P and name O2) 2.0 2.0 0.5
+assign (resi 125) (resi 1 and segid P and name C9) 2.0 2.0 0.5
+assign (resi 125) (resi 1 and segid P and name C9) 2.0 2.0 0.5
+assign (resi 125) (resi 1 and segid P and name CC) 2.0 2.0 0.5
+assign (resi 127) (resi 1 and segid P and name C4) 2.0 2.0 0.5
+assign (resi 127) (resi 1 and segid P and name C4) 2.0 2.0 0.5
+assign (resi 130) (resi 1 and segid P and name O2) 2.0 2.0 0.5
+! Orient C1 properly (two restraints were repeated to upweight the connectivity)
+assign (resi 71 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 129 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
+assign (resi 71 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 129 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
+assign (resi 71 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 129 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
+assign (resi 71 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 129 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
+assign (resi 71 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 129 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
+assign (resi 71 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 129 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
+assign (resi 71 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 129 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
