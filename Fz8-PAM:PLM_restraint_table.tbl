@@ -1,0 +1,30 @@
+! Ensure the proper interaction of the ligand with Fzd8
+assign (resi 66) (resi 1 and segid P and name C3) 2.0 2.0 0.5 
+assign (resi 66) (resi 1 and segid P and name C4) 2.0 2.0 0.5
+assign (resi 67) (resi 1 and segid P and name C1) 2.0 2.0 0.5
+assign (resi 67) (resi 1 and segid P and name O2) 2.0 2.0 0.5
+assign (resi 67) (resi 1 and segid P and name C1) 2.0 2.0 0.5
+assign (resi 69) (resi 1 and segid P and name C8) 2.0 2.0 0.5
+assign (resi 73) (resi 1 and segid P and name CD) 2.0 2.0 0.5
+assign (resi 117) (resi 1 and segid P and name O2) 2.0 2.0 0.5
+assign (resi 120) (resi 1 and segid P and name C9) 2.0 2.0 0.5
+assign (resi 120) (resi 1 and segid P and name C9) 2.0 2.0 0.5
+assign (resi 120) (resi 1 and segid P and name CC) 2.0 2.0 0.5
+assign (resi 122) (resi 1 and segid P and name C4) 2.0 2.0 0.5
+assign (resi 122) (resi 1 and segid P and name C4) 2.0 2.0 0.5
+assign (resi 125) (resi 1 and segid P and name O2) 2.0 2.0 0.5
+! Orient C1 properly
+assign (resi 66 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 124 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5
+assign (resi 66 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 124 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5
+assign (resi 66 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 124 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5
+assign (resi 66 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 124 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5
+assign (resi 66 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 124 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5
+assign (resi 66 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 124 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5
+assign (resi 66 and name CA) (resi 1 and segid P and name C1) 6.2 0.5 0.5 
+assign (resi 124 and name CA) (resi 1 and segid P and name C1) 7.2 0.5 0.5 
